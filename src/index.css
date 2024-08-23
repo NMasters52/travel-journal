@@ -79,3 +79,7 @@ body {
   width: 250px;
   height: 250px;
 }
+
+.log-post__article {
+  border: 2px solid yellow;
+}
