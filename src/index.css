@@ -73,6 +73,7 @@ body {
   padding: 2em 1em;
   width: 80%;
   margin: 0 auto;
+  gap: 20px;
 }
 
 .log-post--img {
@@ -81,5 +82,18 @@ body {
 }
 
 .log-post__article {
+  display: flex;
+  flex-direction: column;
   border: 2px solid yellow;
+  justify-content: space-evenly;
+}
+
+.article__header {
+  border: 2px solid green;
+  padding: 20px;
+}
+
+.article_text {
+  border: 2px solid blue;
+  padding: 30px 0;
 }
