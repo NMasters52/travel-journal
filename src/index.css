@@ -66,3 +66,16 @@ body {
 .header--icon {
   margin-right: 5px;
 }
+
+.log-post {
+  border: 5px solid red;
+  display: flex;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.log-post--img {
+  width: 250px;
+  height: 250px;
+}
