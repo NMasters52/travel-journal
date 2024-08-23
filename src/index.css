@@ -68,12 +68,13 @@ body {
 }
 
 .log-post {
-  border: 5px solid red;
   display: flex;
   padding: 2em 1em;
   width: 80%;
   margin: 0 auto;
   gap: 20px;
+  border-bottom: 2px solid transparent; 
+            box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2); 
 }
 
 .log-post--img {
