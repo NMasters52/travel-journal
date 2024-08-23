@@ -56,5 +56,13 @@ body {
 }
 
 .header {
-  background-color: red;
+  font-family: 'Poppins';
+  padding: 20px;
+  background-color: #848871;
+  color: #FFF;
+  text-align: center;
+}
+
+.header--icon {
+  margin-right: 5px;
 }
