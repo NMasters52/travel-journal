@@ -18,7 +18,7 @@ function App() {
           <Header />
           <section>
                 {logData}
-            </section>
+          </section>
         </>
         
     )
