@@ -9,10 +9,9 @@ export default function Log() {
             </div>
             <div className='log-post__article'>
                 <div className='article__header'>
-                    <span>Leicester, MA  <a href="https://maps.app.goo.gl/FudnRcMm6UhVjEva8">View on Google Maps</a>
+                    <h3 className='header--title'>Maple Hill Disc Golf</h3>
+                    <span className='header-location'>Leicester, MA  <a href="https://maps.app.goo.gl/FudnRcMm6UhVjEva8">View on Google Maps</a>
                     </span>
-                    <h3>Maple Hill</h3>
-                    <span>Dates Visited</span>
                 </div>
                 <div className='article_text'>
                     <p>Review/ experiances. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nemo quaerat iusto, rerum ipsum unde labore qui laboriosam quos voluptatum eveniet minus ex assumenda animi obcaecati soluta asperiores alias adipisci, perferendis possimus? Repellendus esse reiciendis pariatur praesentium ea, qui architecto ad quibusdam. Illo facilis, autem eum fuga in culpa debitis.</p>

@@ -1,5 +1,4 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -26,6 +25,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -49,10 +49,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-body {
-  box-sizing: border-box;
 }
 
 .header {
@@ -87,16 +83,34 @@ body {
 .log-post__article {
   display: flex;
   flex-direction: column;
-  border: 2px solid yellow;
   justify-content: space-evenly;
 }
 
 .article__header {
-  border: 2px solid green;
   padding: 20px;
 }
 
+.header--title {
+  font-family:'Poppins', sans-serif ;
+  font-size: 3rem;
+  margin-bottom: 9px;
+}
+
+.header-location {
+  font-family: 'Roboto', sans-serif;
+}
+
 .article_text {
-  border: 2px solid blue;
+  font-family: 'Roboto', sans-serif;
   padding: 30px 0;
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+}
+
+@media (max-width: 700px) {
+  
+  .log-post{
+    display: block;
+  }
 }
