@@ -1,20 +1,20 @@
 import React from 'react'
 
 
-export default function Log() {
+export default function Log(props) {
     return (
         <article className='log-post'>
             <div className='log-post__img'>
-                <img className='log-post--img' src="../public/images/maple-hill.png" alt="Picture of Hole One Maple Hill" />
+                <img className='log-post--img' src={`../public/images/${props.imageUrl}`} alt="Picture of Hole One Maple Hill" />
             </div>
             <div className='log-post__article'>
                 <div className='article__header'>
-                    <h3 className='header--title'>Maple Hill Disc Golf</h3>
-                    <span className='header-location'>Leicester, MA  <a href="https://maps.app.goo.gl/FudnRcMm6UhVjEva8">View on Google Maps</a>
+                    <h3 className='header--title'>{props.title}</h3>
+                    <span className='header-location'>{props.location}<a href={props.googleMapsUrl}>View on Google Maps</a>
                     </span>
                 </div>
                 <div className='article_text'>
-                    <p>Review/ experiances. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nemo quaerat iusto, rerum ipsum unde labore qui laboriosam quos voluptatum eveniet minus ex assumenda animi obcaecati soluta asperiores alias adipisci, perferendis possimus? Repellendus esse reiciendis pariatur praesentium ea, qui architecto ad quibusdam. Illo facilis, autem eum fuga in culpa debitis.</p>
+                    <p>{props.description}</p>
                 </div>
                 
             </div>

@@ -5,22 +5,24 @@ import data from './data.js'
 
 
 function App() {
-  const logData = data.map(log => {
+    const logData = data.map(log => {
+      return (
+        <Log 
+        key={log.id}
+          {...log}
+        />
+      )
+    }) 
     return (
-      <Log 
-        key={index}
-        {...log}
-      />
+        <>
+          <Header />
+          <section>
+                {logData}
+            </section>
+        </>
+        
     )
-  }) 
-  return (
-      <>
-        <Header />
-        <Log />
-      </>
-      
-   )
-}
+  }
   
 
 
