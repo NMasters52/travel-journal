@@ -1,5 +1,5 @@
 Travel Journal
-A simple and interactive travel journal application built with React. This project was created to showcase the usage of React props, as well as my skills in layout design and image handling.
+A simple and interactive travel journal application built with React. This project was created to showcase the usage of React props, as well as my skills in layout design and image handling. 
 
 Features
 Dynamic Layout: The layout has been customized to enhance the user experience, making it more visually appealing and easy to navigate.
