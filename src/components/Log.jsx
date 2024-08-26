@@ -5,7 +5,7 @@ export default function Log(props) {
     return (
         <article className='log-post'>
             <div className='log-post__img'>
-                <img className='log-post--img' src={`../public/images/${props.imageUrl}`} alt="Picture of Hole One Maple Hill" />
+                <img className='log-post--img' src={`../public/images/${props.imageUrl}`} alt="Picture of featured Course" />
             </div>
             <div className='log-post__article'>
                 <div className='article__header'>
