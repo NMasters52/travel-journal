@@ -33,10 +33,10 @@ export default [
    },
     {
        id: 5,
-       title: "Maple Hill Disc Golf",
-       location: "Leicester, MA",
-       googleMapsUrl: "https://maps.app.goo.gl/FudnRcMm6UhVjEva8",
+       title: "Olympus DGC",
+       location: "Brooksville, FL",
+       googleMapsUrl: "https://maps.app.goo.gl/EPgoYLkbqB4W6Fqe8",
        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-       imageUrl: "maple-hill.png"
+       imageUrl: "olympus.png"
    },
 ]
